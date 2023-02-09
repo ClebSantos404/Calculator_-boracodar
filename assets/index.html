@@ -16,35 +16,36 @@
   <body>
     <div id="container">
       <div class="calculation-screen">
-        <div id="calculation" class="calculation">2</div>
+        <div id="calculation" class="calculation"> </div>
         <div class="results">
           <span>=</span>
-          <div id="result" class="result">2</div>
+          <div id="result" class="result"> </div>
         </div>
       </div>
 
       <div class="keyboard">
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
-        <button onclick="" id="" class="buttons"></button>
+        <button onclick="clearDisplay()" id="ce" class="buttons-black">CE</button>
+        <button onclick="clearNumber()" class="buttons-black">C</button>
+        <button onclick="displayValue('%')" id="" class="buttons-black">%</button>
+        <button onclick="displayValue('/')" id="" class="buttons-purple">÷</button>
+        <button onclick="displayValue('7')" id="" class="buttons-black">7</button>
+        <button onclick="displayValue('8')" id="" class="buttons-black">8</button>
+        <button onclick="displayValue('9')" id="" class="buttons-black">9</button>
+        <button onclick="displayValue('*')" id="" class="buttons-purple">X</button>
+        <button onclick="displayValue('4')" id="" class="buttons-black">4</button>
+        <button onclick="displayValue('5')" id="" class="buttons-black">5</button>
+        <button onclick="displayValue('6')" id="" class="buttons-black">6</button>
+        <button onclick="displayValue('-')" id="" class="buttons-purple">-</button>
+        <button onclick="displayValue('1')" id="" class="buttons-black">1</button>
+        <button onclick="displayValue('2')" id="" class="buttons-black">2</button>
+        <button onclick="displayValue('3')" id="" class="buttons-black">3</button>
+        <button onclick="displayValue('+')" id="" class="buttons-purple">+</button>
+        <button onclick="displayValue('')" id="" class="buttons">+/-</button>
+        <button onclick="displayValue()" id="" class="buttons-black">0</button>
+        <button onclick="displayValue()" id="" class="buttons-black">,</button>
+        <button onclick="calculate()" id="equal" class="buttons">=</button>
       </div>
     </div>
+    <script src="./javascript/script.js"></script>
   </body>
 </html>
