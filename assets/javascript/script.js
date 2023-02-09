@@ -23,7 +23,7 @@ function calculate() {
 //clear
 function clearNumber() {
   const display = document.getElementById('display').innerHTML;
-  const number = result.substring(1);
+  const number = display.substring(1);
   document.getElementById('display').innerHTML = number;
   document.getElementById('calculate').inert = display;
 };
