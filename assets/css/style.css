@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #807ECE;
+  --secundary-color: #2d2a37;
+  --tertiary-color: #6B6B6B;
+  --letter-color: #7F45E2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  width: 87.5rem;
+  height: 48rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 22.25rem;
+  height: 35.375rem;
+  align-items: center;
+  justify-content: center;
+  background: var(--secundary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+  border-radius: 48px;
+}
+
