@@ -26,7 +26,7 @@
 
       <div class="keyboard">
         <button onclick="clearDisplay()" id="ce" class="buttons-black">CE</button>
-        <button onclick="clearNumber()" class="buttons-black">C</button>
+        <button onclick="clearNumber()" id="c" class="buttons-black">C</button>
         <button onclick="displayValue('%')" class="buttons-black">%</button>
         <button onclick="displayValue('/')" class="buttons-purple">÷</button>
         <button onclick="displayValue('7')" class="buttons-black">7</button>
@@ -41,11 +41,14 @@
         <button onclick="displayValue('2')" class="buttons-black">2</button>
         <button onclick="displayValue('3')" class="buttons-black">3</button>
         <button onclick="displayValue('+')" class="buttons-purple">+</button>
-        <button onclick="displayValue('')" id="" class="buttons">+/-</button>
-        <button onclick="displayValue('0')" class="buttons-black">0</button>
-        <button onclick="displayValue(',')" id="" class="buttons-black">,</button>
-        <button onclick="calculate()" id="equal" class="buttons">=</button>
+        <div class="togheter">
+          <button id="top" class="buttons-black"> <img src="assets/image/Captura de tela de 2023-02-09 14-33-23.png"> </button>
+          <button onclick="displayValue('0')" class="buttons-black">0</button>
+          <button onclick="displayValue(',')" class="buttons-black">,</button>
+          <button onclick="calculate()" id="equal" class="buttons">=</button>
+        </div>
       </div>
+      <div class="ig">@cleb.sz3</div>
     </div>
     <script src="./assets/javascript/script.js"></script>
   </body>

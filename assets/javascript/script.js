@@ -6,6 +6,7 @@ function displayValue(num) {
 
 // functior clear all number
 function clearDisplay() {
+  document.getElementById('calculate').innerHTML = "";
   document.getElementById('display').innerHTML = "";
 };
 
@@ -25,5 +26,5 @@ function clearNumber() {
   const display = document.getElementById('display').innerHTML;
   const number = display.substring(1);
   document.getElementById('display').innerHTML = number;
-  document.getElementById('calculate').inert = display;
+  document.getElementById('calculate').innerHTML = display;
 };
