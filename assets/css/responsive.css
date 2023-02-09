@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+  body {
+    width: 21.875rem;
+    height: 45.625rem;
+  }
+
+  #container {
+    width: 19.6875rem;
+    height: 31.25rem;
+  }
+
+  .calculation-screen {
+    width: 15.625rem;
+  }
+
+  .keyboard {
+    width: 15.625rem;
+    height: 21.875rem;
+  }
+
+  button {
+    width: 53px;
+    height: 53px;
+  }
+}
