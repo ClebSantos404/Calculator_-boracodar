@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
   body {
-    width: 21.875rem;
+    width: 22.50rem;
     height: 45.625rem;
   }
 
   #container {
-    width: 19.6875rem;
-    height: 31.25rem;
+    width: 20.6875rem;
+    height: 32.25rem;
   }
 
   .calculation-screen {
@@ -14,12 +14,17 @@
   }
 
   .keyboard {
-    width: 15.625rem;
-    height: 21.875rem;
+    width: 18.625rem;
+    height: 18.875rem;
   }
 
   button {
-    width: 53px;
-    height: 53px;
+    width: 57px;
+    height: 57px;
+  }
+
+  #top img {
+    width: 57px;
+    height: 57px;
   }
 }
