@@ -18,6 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Rubky', sans-serif;
 }
 
 #container {
@@ -30,3 +31,45 @@ body {
   border-radius: 48px;
 }
 
+.calculation-screen {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 5.375rem;
+  margin: 53px 32px 0 36px;
+}
+
+.calculation {
+  color: var(--tertiary-color);
+  width: 15.5rem;
+  height: 1.75rem;
+  text-align: end;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.results {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+span {
+  color: var(--tertiary-color);
+  width: 20px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.result {
+  width: 14.25rem;
+  height: 3.125rem;
+  text-align: end;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  background: var(--secundary-color);
+  border: none;
+  color: white;
+}
